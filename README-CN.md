@@ -2,6 +2,8 @@
 
 在 Vue 项目中使用 ofa.js.
 
+https://github.com/kirakiray/ofa.js/assets/5945154/c6c200bb-6d0b-4ab7-ba0a-ed54d8130877
+
 ## 主要步骤
 
 ### 1. 在 index.html 中引入 ofa.js
