@@ -2,6 +2,8 @@
 
 Using ofa.js in a Vue project.
 
+https://github.com/kirakiray/ofa.js/assets/5945154/c6c200bb-6d0b-4ab7-ba0a-ed54d8130877
+
 [中文教程](./README-CN.md)
 
 ## Main Steps
