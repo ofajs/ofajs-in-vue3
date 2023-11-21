@@ -13,6 +13,7 @@
     ...
     <title><%= htmlWebpackPlugin.options.title %></title>
     <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.min.js"></script>
+    <style>*:not(:defined){display:none;}</style>
   </head>
   ...
 ```
