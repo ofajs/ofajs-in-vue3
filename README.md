@@ -40,14 +40,14 @@ module.exports = defineConfig({
 });
 ```
 
-### 3. 在页面内使用发布好的组件
+### 3. 在 vue 文件中使用组件
+
+基于 ofa.js 开发的组件必须已发布（或者放到本地静态服务器）；如果使用组件有报错，可使用 `eslint-disable-next-line` 解决。
 
 [查看文件](./src/components/HelloWorld.vue)
 
 ```html
-<l-m
-    src="https://ofajs.github.io/ofa-v4-docs/docs/publics/comps/punch-logo.html"
-></l-m>
+<l-m src="https://ofajs.github.io/ofa-v4-docs/docs/publics/comps/punch-logo.html"></l-m>
 
 <punch-logo>
     <img
