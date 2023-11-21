@@ -1,14 +1,12 @@
 # ofajs-in-vue3
 
-Using ofa.js in a Vue project.
+在 Vue 项目中使用 ofa.js.
 
-[中文教程](./README-CN.md)
+## 主要步骤
 
-## Main Steps
+### 1. 在 index.html 中引入 ofa.js
 
-### 1. Include ofa.js in index.html
-
-[View File](./public/index.html)
+[查看文件](./public/index.html)
 
 ```html
   <head>
@@ -19,9 +17,9 @@ Using ofa.js in a Vue project.
   ...
 ```
 
-### 2. Exclude Custom Component Tags from the Whitelist
+### 2. 将自定义组件的标签从名单上去除
 
-[View File](./vue.config.js)
+[查看文件](./vue.config.js)
 
 ```javascript
 module.exports = defineConfig({
@@ -42,11 +40,11 @@ module.exports = defineConfig({
 });
 ```
 
-### 3. Use Components in Vue Files
+### 3. 在 vue 文件中使用组件
 
-Components developed based on ofa.js must be published (or hosted on a local static server). If there are errors when using components, you can use `eslint-disable-next-line` to resolve them.
+基于 ofa.js 开发的组件必须已发布（或者放到本地静态服务器）；如果使用组件有报错，可使用 `eslint-disable-next-line` 解决。
 
-[View File](./src/components/HelloWorld.vue)
+[查看文件](./src/components/HelloWorld.vue)
 
 ```html
 <l-m src="https://ofajs.github.io/ofa-v4-docs/docs/publics/comps/punch-logo.html"></l-m>
